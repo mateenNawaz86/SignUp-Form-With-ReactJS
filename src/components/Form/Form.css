@@ -1,0 +1,38 @@
+.form-container {
+  padding: 2rem;
+}
+
+.form-control {
+  margin-bottom: 0.6rem;
+}
+
+.form-control label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  line-height: 26px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 0.5rem;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-control input:hover,
+.form-control input:active {
+  border-color: #e11de1;
+  border-radius: 3px;
+}
+
+.form-control p {
+  color: red;
+}
